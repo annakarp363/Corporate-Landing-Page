@@ -1,0 +1,262 @@
+html{
+  overflow: visible !important;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.container{
+  font-family: Roboto, sans-serif;
+  width:1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.first_section{
+  background: #fff;
+  background-image:
+  url("../img/Rectangle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title{
+  font-size: 60px;
+  margin: 0 20%;
+  margin-bottom: 50px;
+}
+
+.first_section_btn {
+  display: block;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.first_section_btn_two{
+  text-decoration: none;
+  text-align: center;
+  text-transform:uppercase;
+  color: #fff;
+  padding: 15px 15px;
+  display: inline-block;
+  border: 1px solid #ff6d6d;
+  border-radius: 5px;
+  background-color: #ff6d6d;
+  width: 190px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.second_section{
+  background: #fff;
+  background-image: url("../img/Rectangle1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.block{
+  width:50%;
+  text-align: left;
+}
+
+.NEW{
+  margin: 0 auto;
+  text-transform:uppercase;
+  color: #ff6d6d;
+}
+
+.title_two{
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.ellipsis{
+  color: #ff6d6d ;
+}
+
+.third_section{
+  background: #fff;
+  background-image:
+  url("../img/BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Some_awesone_features{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.One{
+  width: 25%;
+}
+
+.fourth_section{
+  background-color: #1f2026;
+  background-image:
+  url("../img/Group4.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  /*padding-bottom: 1px;*/
+}
+
+.Co_Founder{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  color: #b5b6b8;
+}
+
+.slick-slide img{
+  width: auto;
+}
+
+.slick-slide{
+  align-items: center;
+  height: auto;
+}
+
+.slick-arrow{
+  border: none;
+  width: 96px;
+  height: 96px;
+  overflow: hidden;
+  color: transparent;
+  z-index: 999;
+  position: absolute;
+  top: 41%;
+}
+
+.slick-prev{
+  background: url("../img/prev.png");
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slick-next{
+  background: url("../img/next.png");
+  right: 0;
+  cursor: pointer;
+}
+
+.slick-slide{
+  margin: 45px !important;
+}
+
+.Two{
+  width: 25%;
+}
+
+.title_three{
+  margin: 0 auto;
+  top: 0;
+  font-size: 22px;
+}
+
+.logo{
+  display: flex;
+  justify-content:space-around;
+  padding: 30px;
+}
+
+.fifth_section{
+  background-color: #323969;
+}
+
+.fifth_section_btn_block{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 5%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.fifth_section_btn{
+  text-decoration: none;
+  text-transform:uppercase;
+  color: #fff;
+  padding: 15px 15px;
+  display: inline-block;
+  border: 1px solid #999cb4;
+  border-radius: 5px;
+  background-color: #464c77;
+  width: 200px;
+  margin: 5px 30px;
+}
+
+.items{
+  text-decoration: none;
+  display: block;
+  color: #8c8f94;
+}
+
+.footer{
+  background-color: #ffffff;
+  background-image: url("../img/Rectangle21.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  background-position: 167% 81%;
+}
+
+.footer>.fp-tableCell>.container{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.btn_group{
+  position: relative;
+}
+
+.Your_email_btn{
+  background-color: #fff;
+  width: 230px;
+  padding: 17px 17px;
+  border: 1px solid #b8b8bf;
+  border-radius: 5%;
+}
+
+.Subscribe{
+  border: 1px solid #dcdcdd;
+  position: absolute;
+  top: 0;
+  left: 180px;
+  width: 50px;
+  height: 51px;
+  color: #fff;
+  background-color: #ff6d6d;
+  background-image: url("../img/10.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: 59% 59%;
+  background-size: 34px auto;
+}
+
+.Three{
+  padding: 3%;
+}
